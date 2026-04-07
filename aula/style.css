@@ -1,0 +1,73 @@
+body{
+
+    margin: 0;
+    background-color: rgb(155, 53, 53);
+    color: rgb(17, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card{
+    text-align: center;
+    width: 400px ;
+    background-color: rgb(143, 26, 34);
+    box-shadow: 0 5px 20px #141313;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.banner{
+    background: linear-gradient();
+    height: 0px;
+
+
+    
+}
+.foto{
+width: 120px;
+height: 120px;
+border-radius:50% ;
+border: 5px solid #3f1e1e;
+margin-top: 10px;
+object-fit: cover;
+
+}
+.bio{
+    font-size: 0,9rem;
+    color: #3f1e1e;
+    padding: 0 20px;
+    margin-bottom: 25px;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+}
+.botao{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(173, 0, 0);
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 4px 4px 0px #770000;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.botao:hover{
+    background-color: aliceblue;
+    color: #3f1e1e;
+    transform: scale(1.05);
+    box-shadow: 0px 20px 15px #911d1d;
+    border-radius: 0 20px 0 20px;
+
+}
